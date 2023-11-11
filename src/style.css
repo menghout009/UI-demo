@@ -1,0 +1,15 @@
+/* Define your custom scrollbar styles */
+.custom-scrollbar1::-webkit-scrollbar {
+    width: 4px; 
+    height:8px;/* width of the entire scrollbar */
+  }
+  
+  .custom-scrollbar1::-webkit-scrollbar-track {
+    background: transparent; /* color of the tracking area */
+  }
+  
+  .custom-scrollbar1::-webkit-scrollbar-thumb {
+    background-color: #142948; /* color of the scroll thumb */
+    border-radius: 10px; /* roundness of the scroll thumb */
+    border: 2px solid transparent; /* creates padding around scroll thumb */
+  }
